@@ -121,8 +121,8 @@ app
     });
   });
 
-const port = process.env.PORT||4000 ;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
-  debug(`Backend app listening at http://localhost:${port}`);
+  console.log(`Backend app listening at http://localhost:${port}`);
 });
